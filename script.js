@@ -8,6 +8,8 @@
         $.ajax({
             'url': 'https://api.nasa.gov/planetary/apod',
             'method': 'GET',
+
+            //authenticated api request
             data:{
                 api_key:'5gv1cSH5BDyPlEpBuJnDN0bgEad98BHFH7k71aOu'
             },
